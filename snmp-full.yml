@@ -9335,439 +9335,439 @@ teltonika:
   - name: ModemImei
     oid: 1.3.6.1.4.1.48690.1.1
     type: DisplayString
-    help: RUT9xx modem IMEI - 1.3.6.1.4.1.48690.1.1
+    help: modem IMEI - 1.3.6.1.4.1.48690.1.1
   - name: ModemModel
     oid: 1.3.6.1.4.1.48690.1.2
     type: DisplayString
-    help: RUT9xx modem model - 1.3.6.1.4.1.48690.1.2
+    help: modem model - 1.3.6.1.4.1.48690.1.2
   - name: ModemManufacturer
     oid: 1.3.6.1.4.1.48690.1.3
     type: DisplayString
-    help: RUT9xx modem manufacturer - 1.3.6.1.4.1.48690.1.3
+    help: modem manufacturer - 1.3.6.1.4.1.48690.1.3
   - name: ModemRevision
     oid: 1.3.6.1.4.1.48690.1.4
     type: DisplayString
-    help: RUT9xx modem revision - 1.3.6.1.4.1.48690.1.4
+    help: modem revision - 1.3.6.1.4.1.48690.1.4
   - name: ModemSerial
     oid: 1.3.6.1.4.1.48690.1.5
     type: DisplayString
-    help: RUT9xx modem serial number - 1.3.6.1.4.1.48690.1.5
+    help: modem serial number - 1.3.6.1.4.1.48690.1.5
   - name: Imsi
     oid: 1.3.6.1.4.1.48690.1.6
     type: DisplayString
-    help: RUT9xx IMSI - 1.3.6.1.4.1.48690.1.6
+    help: IMSI - 1.3.6.1.4.1.48690.1.6
   - name: RouterName
     oid: 1.3.6.1.4.1.48690.1.7
     type: DisplayString
-    help: RUT9xx router name - 1.3.6.1.4.1.48690.1.7
+    help: router name - 1.3.6.1.4.1.48690.1.7
   - name: ProductCode
     oid: 1.3.6.1.4.1.48690.1.8
     type: DisplayString
-    help: RUT9xx router product code - 1.3.6.1.4.1.48690.1.8
+    help: router product code - 1.3.6.1.4.1.48690.1.8
   - name: BatchNumber
     oid: 1.3.6.1.4.1.48690.1.9
     type: DisplayString
-    help: RUT9xx router batch number - 1.3.6.1.4.1.48690.1.9
+    help: router batch number - 1.3.6.1.4.1.48690.1.9
   - name: HardwareRevision
     oid: 1.3.6.1.4.1.48690.1.10
     type: DisplayString
-    help: RUT9xx router hardware revision - 1.3.6.1.4.1.48690.1.10
+    help: router hardware revision - 1.3.6.1.4.1.48690.1.10
   - name: SimState
     oid: 1.3.6.1.4.1.48690.2.1
     type: DisplayString
-    help: RUT9xx SIM status - 1.3.6.1.4.1.48690.2.1
+    help: SIM status - 1.3.6.1.4.1.48690.2.1
   - name: PinState
     oid: 1.3.6.1.4.1.48690.2.2
     type: DisplayString
-    help: RUT9xx PIN status - 1.3.6.1.4.1.48690.2.2
+    help: PIN status - 1.3.6.1.4.1.48690.2.2
   - name: NetState
     oid: 1.3.6.1.4.1.48690.2.3
     type: DisplayString
-    help: RUT9xx mobile network registration status - 1.3.6.1.4.1.48690.2.3
+    help: mobile network registration status - 1.3.6.1.4.1.48690.2.3
   - name: Signal
     oid: 1.3.6.1.4.1.48690.2.4
     type: DisplayString
-    help: RUT9xx signal level - 1.3.6.1.4.1.48690.2.4
+    help: signal level - 1.3.6.1.4.1.48690.2.4
   - name: Operator
     oid: 1.3.6.1.4.1.48690.2.5
     type: DisplayString
-    help: RUT9xx operator currently in use - 1.3.6.1.4.1.48690.2.5
+    help: operator currently in use - 1.3.6.1.4.1.48690.2.5
   - name: OperatorNumber
     oid: 1.3.6.1.4.1.48690.2.6
     type: DisplayString
-    help: RUT9xx operator number (MCC+MNC) - 1.3.6.1.4.1.48690.2.6
+    help: operator number (MCC+MNC) - 1.3.6.1.4.1.48690.2.6
   - name: ConnectionState
     oid: 1.3.6.1.4.1.48690.2.7
     type: DisplayString
-    help: RUT9xx data session connection state - 1.3.6.1.4.1.48690.2.7
+    help: data session connection state - 1.3.6.1.4.1.48690.2.7
   - name: ConnectionType
     oid: 1.3.6.1.4.1.48690.2.8
     type: DisplayString
-    help: RUT9xx data session connection type - 1.3.6.1.4.1.48690.2.8
+    help: data session connection type - 1.3.6.1.4.1.48690.2.8
   - name: Temperature
     oid: 1.3.6.1.4.1.48690.2.9
     type: DisplayString
-    help: RUT9xx module temperature - 1.3.6.1.4.1.48690.2.9
+    help: module temperature - 1.3.6.1.4.1.48690.2.9
   - name: ReceivedToday
     oid: 1.3.6.1.4.1.48690.2.10
     type: gauge
-    help: RUT9xx 3G connection received bytes today - 1.3.6.1.4.1.48690.2.10
+    help: 3G connection received bytes today - 1.3.6.1.4.1.48690.2.10
   - name: SentToday
     oid: 1.3.6.1.4.1.48690.2.11
     type: gauge
-    help: RUT9xx 3G connection sent bytes today - 1.3.6.1.4.1.48690.2.11
+    help: 3G connection sent bytes today - 1.3.6.1.4.1.48690.2.11
   - name: ReceivedYesterday
     oid: 1.3.6.1.4.1.48690.2.12
     type: gauge
-    help: RUT9xx 3G connection received bytes yesterday - 1.3.6.1.4.1.48690.2.12
+    help: 3G connection received bytes yesterday - 1.3.6.1.4.1.48690.2.12
   - name: SentYesterday
     oid: 1.3.6.1.4.1.48690.2.13
     type: gauge
-    help: RUT9xx 3G connection sent bytes yesterday - 1.3.6.1.4.1.48690.2.13
+    help: 3G connection sent bytes yesterday - 1.3.6.1.4.1.48690.2.13
   - name: FirmwareVersion
     oid: 1.3.6.1.4.1.48690.2.14
     type: DisplayString
-    help: RUT9xx firmware version - 1.3.6.1.4.1.48690.2.14
+    help: firmware version - 1.3.6.1.4.1.48690.2.14
   - name: SimSlot
     oid: 1.3.6.1.4.1.48690.2.15
     type: DisplayString
-    help: RUT9xx sim slot in use - 1.3.6.1.4.1.48690.2.15
+    help: sim slot in use - 1.3.6.1.4.1.48690.2.15
   - name: RouterUptime
     oid: 1.3.6.1.4.1.48690.2.16
     type: DisplayString
-    help: RUT9xx router uptime - 1.3.6.1.4.1.48690.2.16
+    help: router uptime - 1.3.6.1.4.1.48690.2.16
   - name: ConnectionUptime
     oid: 1.3.6.1.4.1.48690.2.17
     type: DisplayString
-    help: RUT9xx mobile connection uptime - 1.3.6.1.4.1.48690.2.17
+    help: mobile connection uptime - 1.3.6.1.4.1.48690.2.17
   - name: MobileIP
     oid: 1.3.6.1.4.1.48690.2.18
     type: DisplayString
-    help: RUT9xx mobile connection IP - 1.3.6.1.4.1.48690.2.18
+    help: mobile connection IP - 1.3.6.1.4.1.48690.2.18
   - name: Sent
     oid: 1.3.6.1.4.1.48690.2.19
     type: gauge
-    help: RUT9xx bytes sent - 1.3.6.1.4.1.48690.2.19
+    help: bytes sent - 1.3.6.1.4.1.48690.2.19
   - name: Received
     oid: 1.3.6.1.4.1.48690.2.20
     type: gauge
-    help: RUT9xx bytes received - 1.3.6.1.4.1.48690.2.20
+    help: bytes received - 1.3.6.1.4.1.48690.2.20
   - name: CellID
     oid: 1.3.6.1.4.1.48690.2.21
     type: DisplayString
-    help: RUT9xx cellid parameter - 1.3.6.1.4.1.48690.2.21
+    help: cellid parameter - 1.3.6.1.4.1.48690.2.21
   - name: SINR
     oid: 1.3.6.1.4.1.48690.2.22
     type: DisplayString
-    help: RUT9xx LTE sinr level - 1.3.6.1.4.1.48690.2.22
+    help: LTE sinr level - 1.3.6.1.4.1.48690.2.22
   - name: RSRP
     oid: 1.3.6.1.4.1.48690.2.23
     type: DisplayString
-    help: RUT9xx LTE rsrp level - 1.3.6.1.4.1.48690.2.23
+    help: LTE rsrp level - 1.3.6.1.4.1.48690.2.23
   - name: RSRQ
     oid: 1.3.6.1.4.1.48690.2.24
     type: DisplayString
-    help: RUT9xx LTE rsrq level - 1.3.6.1.4.1.48690.2.24
+    help: LTE rsrq level - 1.3.6.1.4.1.48690.2.24
   - name: DigitalInput
     oid: 1.3.6.1.4.1.48690.5.1
     type: DisplayString
-    help: RUT9xx digital input - 1.3.6.1.4.1.48690.5.1
+    help: digital input - 1.3.6.1.4.1.48690.5.1
   - name: DigitalIsolatedInput
     oid: 1.3.6.1.4.1.48690.5.2
     type: DisplayString
-    help: RUT9xx digital galvanically isolated input - 1.3.6.1.4.1.48690.5.2
+    help: digital galvanically isolated input - 1.3.6.1.4.1.48690.5.2
   - name: AnalogInput
     oid: 1.3.6.1.4.1.48690.5.3
     type: DisplayString
-    help: RUT9xx analog input - 1.3.6.1.4.1.48690.5.3
+    help: analog input - 1.3.6.1.4.1.48690.5.3
   - name: DigitalOCOutput
     oid: 1.3.6.1.4.1.48690.5.4
     type: DisplayString
-    help: RUT9xx digital OC output - 1.3.6.1.4.1.48690.5.4
+    help: digital OC output - 1.3.6.1.4.1.48690.5.4
   - name: DigitalRelayOutput
     oid: 1.3.6.1.4.1.48690.5.5
     type: DisplayString
-    help: RUT9xx digital relay output - 1.3.6.1.4.1.48690.5.5
+    help: digital relay output - 1.3.6.1.4.1.48690.5.5
   - name: AnalogInputCalc
     oid: 1.3.6.1.4.1.48690.5.6
     type: DisplayString
-    help: RUT9xx analog input (recalculated value) - 1.3.6.1.4.1.48690.5.6
+    help: analog input (recalculated value) - 1.3.6.1.4.1.48690.5.6
   - name: Longtitude
     oid: 1.3.6.1.4.1.48690.6.1
     type: DisplayString
-    help: RUT9xx longititude coordinates - 1.3.6.1.4.1.48690.6.1
+    help: longititude coordinates - 1.3.6.1.4.1.48690.6.1
   - name: Latitude
     oid: 1.3.6.1.4.1.48690.6.2
     type: DisplayString
-    help: RUT9xx latitutde coordinates - 1.3.6.1.4.1.48690.6.2
+    help: latitutde coordinates - 1.3.6.1.4.1.48690.6.2
   - name: Accuracy
     oid: 1.3.6.1.4.1.48690.6.3
     type: DisplayString
-    help: RUT9xx accuracy - 1.3.6.1.4.1.48690.6.3
+    help: accuracy - 1.3.6.1.4.1.48690.6.3
   - name: Datetime
     oid: 1.3.6.1.4.1.48690.6.4
     type: DisplayString
-    help: RUT9xx GPS datetime - 1.3.6.1.4.1.48690.6.4
+    help: GPS datetime - 1.3.6.1.4.1.48690.6.4
   - name: NumSatellites
     oid: 1.3.6.1.4.1.48690.6.5
     type: DisplayString
-    help: RUT9xx number of satellites - 1.3.6.1.4.1.48690.6.5
+    help: number of satellites - 1.3.6.1.4.1.48690.6.5
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.1.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.1.1
+    help: hot spot id - 1.3.6.1.4.1.48690.3.1.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.1.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.1.2
+    help: hot spot ssid - 1.3.6.1.4.1.48690.3.1.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.1.3
     type: DisplayString
-    help: RUT9xx hot spot enable status - 1.3.6.1.4.1.48690.3.1.3
+    help: hot spot enable status - 1.3.6.1.4.1.48690.3.1.3
   - name: hotSpotIP
     oid: 1.3.6.1.4.1.48690.3.1.4
     type: DisplayString
-    help: RUT9xx hot spot ip address - 1.3.6.1.4.1.48690.3.1.4
+    help: hot spot ip address - 1.3.6.1.4.1.48690.3.1.4
   - name: hotSpotDownloadBandWidth
     oid: 1.3.6.1.4.1.48690.3.1.5
     type: DisplayString
-    help: RUT9xx hot spot download band width - 1.3.6.1.4.1.48690.3.1.5
+    help: hot spot download band width - 1.3.6.1.4.1.48690.3.1.5
   - name: hotSpotUploadBandWidth
     oid: 1.3.6.1.4.1.48690.3.1.6
     type: DisplayString
-    help: RUT9xx hot spot upload band width - 1.3.6.1.4.1.48690.3.1.6
+    help: hot spot upload band width - 1.3.6.1.4.1.48690.3.1.6
   - name: hotSpotUsers
     oid: 1.3.6.1.4.1.48690.3.1.7
     type: DisplayString
-    help: RUT9xx hot spot existing users - 1.3.6.1.4.1.48690.3.1.7
+    help: hot spot existing users - 1.3.6.1.4.1.48690.3.1.7
   - name: hotSpotUsersPass
     oid: 1.3.6.1.4.1.48690.3.1.8
     type: DisplayString
-    help: RUT9xx hot spot users passwords - 1.3.6.1.4.1.48690.3.1.8
+    help: hot spot users passwords - 1.3.6.1.4.1.48690.3.1.8
   - name: hotSpotUsersActive
     oid: 1.3.6.1.4.1.48690.3.1.9
     type: DisplayString
-    help: RUT9xx hot spot active users - 1.3.6.1.4.1.48690.3.1.9
+    help: hot spot active users - 1.3.6.1.4.1.48690.3.1.9
   - name: hotSpotUsersMac
     oid: 1.3.6.1.4.1.48690.3.1.10
     type: DisplayString
-    help: RUT9xx hot spot user mac - 1.3.6.1.4.1.48690.3.1.10
+    help: hot spot user mac - 1.3.6.1.4.1.48690.3.1.10
   - name: hotSpotUsersIp
     oid: 1.3.6.1.4.1.48690.3.1.11
     type: DisplayString
-    help: RUT9xx hot spot user ip address - 1.3.6.1.4.1.48690.3.1.11
+    help: hot spot user ip address - 1.3.6.1.4.1.48690.3.1.11
   - name: hotSpotUsersStartTime
     oid: 1.3.6.1.4.1.48690.3.1.12
     type: DisplayString
-    help: RUT9xx hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.1.12
+    help: hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.1.12
   - name: hotSpotUsersUseTime
     oid: 1.3.6.1.4.1.48690.3.1.13
     type: DisplayString
-    help: RUT9xx hot spot user active time - 1.3.6.1.4.1.48690.3.1.13
+    help: hot spot user active time - 1.3.6.1.4.1.48690.3.1.13
   - name: hotSpotUsersDownload
     oid: 1.3.6.1.4.1.48690.3.1.14
     type: DisplayString
-    help: RUT9xx hot spot user downloaded data - 1.3.6.1.4.1.48690.3.1.14
+    help: hot spot user downloaded data - 1.3.6.1.4.1.48690.3.1.14
   - name: hotSpotUsersUpload
     oid: 1.3.6.1.4.1.48690.3.1.15
     type: DisplayString
-    help: RUT9xx hot spot user uploaded data - 1.3.6.1.4.1.48690.3.1.15
+    help: hot spot user uploaded data - 1.3.6.1.4.1.48690.3.1.15
   - name: hotSpotEndTime
     oid: 1.3.6.1.4.1.48690.3.1.16
     type: DisplayString
-    help: RUT9xx hot spot user last connection time - 1.3.6.1.4.1.48690.3.1.16
+    help: hot spot user last connection time - 1.3.6.1.4.1.48690.3.1.16
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.2.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.2.1
+    help: hot spot id - 1.3.6.1.4.1.48690.3.2.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.2.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.2.2
+    help: hot spot ssid - 1.3.6.1.4.1.48690.3.2.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.2.3
     type: DisplayString
-    help: RUT9xx hot spot enable state - 1.3.6.1.4.1.48690.3.2.3
+    help: hot spot enable state - 1.3.6.1.4.1.48690.3.2.3
   - name: hotSpotIP
     oid: 1.3.6.1.4.1.48690.3.2.4
     type: DisplayString
-    help: RUT9xx hot spot ip address - 1.3.6.1.4.1.48690.3.2.4
+    help: hot spot ip address - 1.3.6.1.4.1.48690.3.2.4
   - name: hotSpotDownloadBandWidth
     oid: 1.3.6.1.4.1.48690.3.2.5
     type: DisplayString
-    help: RUT9xx hot spot download band width - 1.3.6.1.4.1.48690.3.2.5
+    help: hot spot download band width - 1.3.6.1.4.1.48690.3.2.5
   - name: hotSpotUploadBandWidth
     oid: 1.3.6.1.4.1.48690.3.2.6
     type: DisplayString
-    help: RUT9xx hot spot upload band width - 1.3.6.1.4.1.48690.3.2.6
+    help: hot spot upload band width - 1.3.6.1.4.1.48690.3.2.6
   - name: hotSpotUsers
     oid: 1.3.6.1.4.1.48690.3.2.7
     type: DisplayString
-    help: RUT9xx hot spot existing users - 1.3.6.1.4.1.48690.3.2.7
+    help: hot spot existing users - 1.3.6.1.4.1.48690.3.2.7
   - name: hotSpotUsersPass
     oid: 1.3.6.1.4.1.48690.3.2.8
     type: DisplayString
-    help: RUT9xx hot spot users passwords - 1.3.6.1.4.1.48690.3.2.8
+    help: hot spot users passwords - 1.3.6.1.4.1.48690.3.2.8
   - name: hotSpotUsersActive
     oid: 1.3.6.1.4.1.48690.3.2.9
     type: DisplayString
-    help: RUT9xx hot spot active users - 1.3.6.1.4.1.48690.3.2.9
+    help: hot spot active users - 1.3.6.1.4.1.48690.3.2.9
   - name: hotSpotUsersMac
     oid: 1.3.6.1.4.1.48690.3.2.10
     type: DisplayString
-    help: RUT9xx hot spot user mac - 1.3.6.1.4.1.48690.3.2.10
+    help: hot spot user mac - 1.3.6.1.4.1.48690.3.2.10
   - name: hotSpotUsersIp
     oid: 1.3.6.1.4.1.48690.3.2.11
     type: DisplayString
-    help: RUT9xx hot spot user ip address - 1.3.6.1.4.1.48690.3.2.11
+    help: hot spot user ip address - 1.3.6.1.4.1.48690.3.2.11
   - name: hotSpotUsersStartTime
     oid: 1.3.6.1.4.1.48690.3.2.12
     type: DisplayString
-    help: RUT9xx hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.2.12
+    help: hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.2.12
   - name: hotSpotUsersUseTime
     oid: 1.3.6.1.4.1.48690.3.2.13
     type: DisplayString
-    help: RUT9xx hot spot user active time - 1.3.6.1.4.1.48690.3.2.13
+    help: hot spot user active time - 1.3.6.1.4.1.48690.3.2.13
   - name: hotSpotUsersDownload
     oid: 1.3.6.1.4.1.48690.3.2.14
     type: DisplayString
-    help: RUT9xx hot spot user downloaded data - 1.3.6.1.4.1.48690.3.2.14
+    help: hot spot user downloaded data - 1.3.6.1.4.1.48690.3.2.14
   - name: hotSpotUsersUpload
     oid: 1.3.6.1.4.1.48690.3.2.15
     type: DisplayString
-    help: RUT9xx hot spot user uploaded data - 1.3.6.1.4.1.48690.3.2.15
+    help: hot spot user uploaded data - 1.3.6.1.4.1.48690.3.2.15
   - name: hotSpotEndTime
     oid: 1.3.6.1.4.1.48690.3.2.16
     type: DisplayString
-    help: RUT9xx hot spot user last connection time - 1.3.6.1.4.1.48690.3.2.16
+    help: hot spot user last connection time - 1.3.6.1.4.1.48690.3.2.16
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.3.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.3.1
+    help: hot spot id - 1.3.6.1.4.1.48690.3.3.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.3.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.3.2
+    help: hot spot ssid - 1.3.6.1.4.1.48690.3.3.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.3.3
     type: DisplayString
-    help: RUT9xx hot spot enable state - 1.3.6.1.4.1.48690.3.3.3
+    help: hot spot enable state - 1.3.6.1.4.1.48690.3.3.3
   - name: hotSpotIP
     oid: 1.3.6.1.4.1.48690.3.3.4
     type: DisplayString
-    help: RUT9xx hot spot ip address - 1.3.6.1.4.1.48690.3.3.4
+    help: hot spot ip address - 1.3.6.1.4.1.48690.3.3.4
   - name: hotSpotDownloadBandWidth
     oid: 1.3.6.1.4.1.48690.3.3.5
     type: DisplayString
-    help: RUT9xx hot spot download band width - 1.3.6.1.4.1.48690.3.3.5
+    help: hot spot download band width - 1.3.6.1.4.1.48690.3.3.5
   - name: hotSpotUploadBandWidth
     oid: 1.3.6.1.4.1.48690.3.3.6
     type: DisplayString
-    help: RUT9xx hot spot upload band width - 1.3.6.1.4.1.48690.3.3.6
+    help: hot spot upload band width - 1.3.6.1.4.1.48690.3.3.6
   - name: hotSpotUsers
     oid: 1.3.6.1.4.1.48690.3.3.7
     type: DisplayString
-    help: RUT9xx hot spot existing users - 1.3.6.1.4.1.48690.3.3.7
+    help: hot spot existing users - 1.3.6.1.4.1.48690.3.3.7
   - name: hotSpotUsersPass
     oid: 1.3.6.1.4.1.48690.3.3.8
     type: DisplayString
-    help: RUT9xx hot spot users passwords - 1.3.6.1.4.1.48690.3.3.8
+    help: hot spot users passwords - 1.3.6.1.4.1.48690.3.3.8
   - name: hotSpotUsersActive
     oid: 1.3.6.1.4.1.48690.3.3.9
     type: DisplayString
-    help: RUT9xx hot spot active users - 1.3.6.1.4.1.48690.3.3.9
+    help: hot spot active users - 1.3.6.1.4.1.48690.3.3.9
   - name: hotSpotUsersMac
     oid: 1.3.6.1.4.1.48690.3.3.10
     type: DisplayString
-    help: RUT9xx hot spot user mac - 1.3.6.1.4.1.48690.3.3.10
+    help: hot spot user mac - 1.3.6.1.4.1.48690.3.3.10
   - name: hotSpotUsersIp
     oid: 1.3.6.1.4.1.48690.3.3.11
     type: DisplayString
-    help: RUT9xx hot spot user ip address - 1.3.6.1.4.1.48690.3.3.11
+    help: hot spot user ip address - 1.3.6.1.4.1.48690.3.3.11
   - name: hotSpotUsersStartTime
     oid: 1.3.6.1.4.1.48690.3.3.12
     type: DisplayString
-    help: RUT9xx hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.3.12
+    help: hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.3.12
   - name: hotSpotUsersUseTime
     oid: 1.3.6.1.4.1.48690.3.3.13
     type: DisplayString
-    help: RUT9xx hot spot user active time - 1.3.6.1.4.1.48690.3.3.13
+    help: hot spot user active time - 1.3.6.1.4.1.48690.3.3.13
   - name: hotSpotUsersDownload
     oid: 1.3.6.1.4.1.48690.3.3.14
     type: DisplayString
-    help: RUT9xx hot spot user downloaded data - 1.3.6.1.4.1.48690.3.3.14
+    help: hot spot user downloaded data - 1.3.6.1.4.1.48690.3.3.14
   - name: hotSpotUsersUpload
     oid: 1.3.6.1.4.1.48690.3.3.15
     type: DisplayString
-    help: RUT9xx hot spot user uploaded data - 1.3.6.1.4.1.48690.3.3.15
+    help: hot spot user uploaded data - 1.3.6.1.4.1.48690.3.3.15
   - name: hotSpotEndTime
     oid: 1.3.6.1.4.1.48690.3.3.16
     type: DisplayString
-    help: RUT9xx hot spot user last connection time - 1.3.6.1.4.1.48690.3.3.16
+    help: hot spot user last connection time - 1.3.6.1.4.1.48690.3.3.16
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.4.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.4.1
+    help: hot spot id - 1.3.6.1.4.1.48690.3.4.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.4.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.4.2
+    help: hot spot ssid - 1.3.6.1.4.1.48690.3.4.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.4.3
     type: DisplayString
-    help: RUT9xx hot spot enable state - 1.3.6.1.4.1.48690.3.4.3
+    help: hot spot enable state - 1.3.6.1.4.1.48690.3.4.3
   - name: hotSpotIP
     oid: 1.3.6.1.4.1.48690.3.4.4
     type: DisplayString
-    help: RUT9xx hot spot ip address - 1.3.6.1.4.1.48690.3.4.4
+    help: hot spot ip address - 1.3.6.1.4.1.48690.3.4.4
   - name: hotSpotDownloadBandWidth
     oid: 1.3.6.1.4.1.48690.3.4.5
     type: DisplayString
-    help: RUT9xx hot spot download band width - 1.3.6.1.4.1.48690.3.4.5
+    help: hot spot download band width - 1.3.6.1.4.1.48690.3.4.5
   - name: hotSpotUploadBandWidth
     oid: 1.3.6.1.4.1.48690.3.4.6
     type: DisplayString
-    help: RUT9xx hot spot upload band width - 1.3.6.1.4.1.48690.3.4.6
+    help: hot spot upload band width - 1.3.6.1.4.1.48690.3.4.6
   - name: hotSpotUsers
     oid: 1.3.6.1.4.1.48690.3.4.7
     type: DisplayString
-    help: RUT9xx hot spot existing users - 1.3.6.1.4.1.48690.3.4.7
+    help: hot spot existing users - 1.3.6.1.4.1.48690.3.4.7
   - name: hotSpotUsersPass
     oid: 1.3.6.1.4.1.48690.3.4.8
     type: DisplayString
-    help: RUT9xx hot spot users passwords - 1.3.6.1.4.1.48690.3.4.8
+    help: hot spot users passwords - 1.3.6.1.4.1.48690.3.4.8
   - name: hotSpotUsersActive
     oid: 1.3.6.1.4.1.48690.3.4.9
     type: DisplayString
-    help: RUT9xx hot spot active users - 1.3.6.1.4.1.48690.3.4.9
+    help: hot spot active users - 1.3.6.1.4.1.48690.3.4.9
   - name: hotSpotUsersMac
     oid: 1.3.6.1.4.1.48690.3.4.10
     type: DisplayString
-    help: RUT9xx hot spot user mac - 1.3.6.1.4.1.48690.3.4.10
+    help: hot spot user mac - 1.3.6.1.4.1.48690.3.4.10
   - name: hotSpotUsersIp
     oid: 1.3.6.1.4.1.48690.3.4.11
     type: DisplayString
-    help: RUT9xx hot spot user ip address - 1.3.6.1.4.1.48690.3.4.11
+    help: hot spot user ip address - 1.3.6.1.4.1.48690.3.4.11
   - name: hotSpotUsersStartTime
     oid: 1.3.6.1.4.1.48690.3.4.12
     type: DisplayString
-    help: RUT9xx hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.4.12
+    help: hot spot user connection to hotspot time - 1.3.6.1.4.1.48690.3.4.12
   - name: hotSpotUsersUseTime
     oid: 1.3.6.1.4.1.48690.3.4.13
     type: DisplayString
-    help: RUT9xx hot spot user active time - 1.3.6.1.4.1.48690.3.4.13
+    help: hot spot user active time - 1.3.6.1.4.1.48690.3.4.13
   - name: hotSpotUsersDownload
     oid: 1.3.6.1.4.1.48690.3.4.14
     type: DisplayString
-    help: RUT9xx hot spot user downloaded data - 1.3.6.1.4.1.48690.3.4.14
+    help: hot spot user downloaded data - 1.3.6.1.4.1.48690.3.4.14
   - name: hotSpotUsersUpload
     oid: 1.3.6.1.4.1.48690.3.4.15
     type: DisplayString
-    help: RUT9xx hot spot user uploaded data - 1.3.6.1.4.1.48690.3.4.15
+    help: hot spot user uploaded data - 1.3.6.1.4.1.48690.3.4.15
   - name: hotSpotEndTime
     oid: 1.3.6.1.4.1.48690.3.4.16
     type: DisplayString
-    help: RUT9xx hot spot user last connection time - 1.3.6.1.4.1.48690.3.4.16
+    help: hot spot user last connection time - 1.3.6.1.4.1.48690.3.4.16
 ubiquiti_airmax:
   walk:
   - 1.3.6.1.2.1.2
