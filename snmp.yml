@@ -405,11 +405,11 @@ teltonika:
   - name: ConnectionState
     oid: 1.3.6.1.4.1.48690.2.7
     type: DisplayString
-    help: data session connection state - 1.3.6.1.4.1.48690.2.7
+    help: Data session connection state - 1.3.6.1.4.1.48690.2.7
   - name: ConnectionType
     oid: 1.3.6.1.4.1.48690.2.8
     type: DisplayString
-    help: data session connection type - 1.3.6.1.4.1.48690.2.8
+    help: Data session connection type - 1.3.6.1.4.1.48690.2.8
   - name: Temperature
     oid: 1.3.6.1.4.1.48690.2.9
     type: DisplayString
@@ -477,11 +477,11 @@ teltonika:
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.1.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.1.1
+    help: Hotspot id - 1.3.6.1.4.1.48690.3.1.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.1.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.1.2
+    help: Hotspot ssid - 1.3.6.1.4.1.48690.3.1.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.1.3
     type: DisplayString
@@ -541,11 +541,11 @@ teltonika:
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.2.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.2.1
+    help: Hotspot id - 1.3.6.1.4.1.48690.3.2.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.2.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.2.2
+    help: Hotspot ssid - 1.3.6.1.4.1.48690.3.2.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.2.3
     type: DisplayString
@@ -605,11 +605,11 @@ teltonika:
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.3.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.3.1
+    help: Hotspot id - 1.3.6.1.4.1.48690.3.3.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.3.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.3.2
+    help: Hotspot ssid - 1.3.6.1.4.1.48690.3.3.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.3.3
     type: DisplayString
@@ -669,11 +669,11 @@ teltonika:
   - name: hotSpotId
     oid: 1.3.6.1.4.1.48690.3.4.1
     type: DisplayString
-    help: Rut9xx hot spot id - 1.3.6.1.4.1.48690.3.4.1
+    help: Hotspot id - 1.3.6.1.4.1.48690.3.4.1
   - name: hotSpotSsid
     oid: 1.3.6.1.4.1.48690.3.4.2
     type: DisplayString
-    help: Rut9xx hot spot ssid - 1.3.6.1.4.1.48690.3.4.2
+    help: Hotspot ssid - 1.3.6.1.4.1.48690.3.4.2
   - name: hotSpotEnableState
     oid: 1.3.6.1.4.1.48690.3.4.3
     type: DisplayString
