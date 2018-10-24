@@ -1234,6 +1234,10 @@ apcups:
     - labelname: iemStatusProbeNumber
       type: gauge
   version: 1
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 arista_sw:
   walk:
   - 1.3.6.1.2.1.2
@@ -1956,6 +1960,10 @@ arista_sw:
     indexes:
     - labelname: aristaSwFwdIpStatsIPVersion
       type: gauge
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 cisco_wlc:
   walk:
   - 1.3.6.1.2.1.2
@@ -2616,6 +2624,10 @@ cisco_wlc:
       labelname: bsnAPName
       oid: 1.3.6.1.4.1.14179.2.2.1.1.3
       type: OctetString
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 ddwrt:
   walk:
   - 1.3.6.1.2.1.2
@@ -3554,6 +3566,10 @@ ddwrt:
     type: DisplayString
     help: Describes whether the amount of available swap space (as reported by 'memAvailSwap(4)'),
       is less than the desired minimum (specified by 'memMinimumSwap(12)'). - 1.3.6.1.4.1.2021.4.101
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 if_mib:
   walk:
   - 1.3.6.1.2.1.2
@@ -3893,6 +3909,10 @@ if_mib:
     indexes:
     - labelname: ifIndex
       type: gauge
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 if_mib_ifalias:
   walk:
   - 1.3.6.1.2.1.2
@@ -4472,6 +4492,10 @@ if_mib_ifalias:
       labelname: ifAlias
       oid: 1.3.6.1.2.1.31.1.1.1.18
       type: DisplayString
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 if_mib_ifdescr:
   walk:
   - 1.3.6.1.2.1.2
@@ -5051,6 +5075,10 @@ if_mib_ifdescr:
       labelname: ifDescr
       oid: 1.3.6.1.2.1.2.2.1.2
       type: DisplayString
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 if_mib_ifname:
   walk:
   - 1.3.6.1.2.1.2
@@ -5630,6 +5658,10 @@ if_mib_ifname:
       labelname: ifName
       oid: 1.3.6.1.2.1.31.1.1.1.1
       type: DisplayString
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 paloalto_fw:
   walk:
   - 1.3.6.1.2.1.2
@@ -6486,6 +6518,10 @@ paloalto_fw:
     oid: 1.3.6.1.4.1.25461.2.1.2.5.1.3
     type: gauge
     help: Number of active tunnels - 1.3.6.1.4.1.25461.2.1.2.5.1.3
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 servertech_sentry3:
   walk:
   - 1.3.6.1.4.1.1718.3.2.2
@@ -6926,6 +6962,10 @@ servertech_sentry3:
       type: gauge
     - labelname: outletIndex
       type: gauge
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 synology:
   walk:
   - 1.3.6.1.2.1.2
@@ -8992,190 +9032,198 @@ synology:
       labelname: serviceName
       oid: 1.3.6.1.4.1.6574.6.1.1.2
       type: OctetString
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 teltonika:
   walk:
   - 1.3.6.1.4.1.48690
   metrics:
   - name: ModemImei
-    oid: 1.3.6.1.4.1.48690.1.1
+    oid: 1.3.6.1.4.1.48690.1.1.0
     type: DisplayString
-    help: RUT9xx modem IMEI - 1.3.6.1.4.1.48690.1.1
+    help: Teltonika modem IMEI - 1.3.6.1.4.1.48690.1.1.0
   - name: ModemModel
-    oid: 1.3.6.1.4.1.48690.1.2
+    oid: 1.3.6.1.4.1.48690.1.2.0
     type: DisplayString
-    help: RUT9xx modem model - 1.3.6.1.4.1.48690.1.2
+    help: Teltonika modem model - 1.3.6.1.4.1.48690.1.2.0
   - name: ModemManufacturer
-    oid: 1.3.6.1.4.1.48690.1.3
+    oid: 1.3.6.1.4.1.48690.1.3.0
     type: DisplayString
-    help: RUT9xx modem manufacturer - 1.3.6.1.4.1.48690.1.3
+    help: Teltonika modem manufacturer - 1.3.6.1.4.1.48690.1.3.0
   - name: ModemRevision
-    oid: 1.3.6.1.4.1.48690.1.4
+    oid: 1.3.6.1.4.1.48690.1.4.0
     type: DisplayString
-    help: RUT9xx modem revision - 1.3.6.1.4.1.48690.1.4
+    help: Teltonika modem revision - 1.3.6.1.4.1.48690.1.4.0
   - name: ModemSerial
-    oid: 1.3.6.1.4.1.48690.1.5
+    oid: 1.3.6.1.4.1.48690.1.5.0
     type: DisplayString
-    help: RUT9xx modem serial number - 1.3.6.1.4.1.48690.1.5
+    help: Teltonika modem serial number - 1.3.6.1.4.1.48690.1.5.0
   - name: Imsi
-    oid: 1.3.6.1.4.1.48690.1.6
+    oid: 1.3.6.1.4.1.48690.1.6.0
     type: DisplayString
-    help: RUT9xx IMSI - 1.3.6.1.4.1.48690.1.6
+    help: Teltonika IMSI - 1.3.6.1.4.1.48690.1.6.0
   - name: RouterName
-    oid: 1.3.6.1.4.1.48690.1.7
+    oid: 1.3.6.1.4.1.48690.1.7.0
     type: DisplayString
-    help: RUT9xx router name - 1.3.6.1.4.1.48690.1.7
+    help: Teltonika router name - 1.3.6.1.4.1.48690.1.7.0
   - name: ProductCode
-    oid: 1.3.6.1.4.1.48690.1.8
+    oid: 1.3.6.1.4.1.48690.1.8.0
     type: DisplayString
-    help: RUT9xx router product code - 1.3.6.1.4.1.48690.1.8
+    help: Teltonika router product code - 1.3.6.1.4.1.48690.1.8.0
   - name: BatchNumber
-    oid: 1.3.6.1.4.1.48690.1.9
+    oid: 1.3.6.1.4.1.48690.1.9.0
     type: DisplayString
-    help: RUT9xx router batch number - 1.3.6.1.4.1.48690.1.9
+    help: Teltonika router batch number - 1.3.6.1.4.1.48690.1.9.0
   - name: HardwareRevision
-    oid: 1.3.6.1.4.1.48690.1.10
+    oid: 1.3.6.1.4.1.48690.1.10.0
     type: DisplayString
-    help: RUT9xx router hardware revision - 1.3.6.1.4.1.48690.1.10
+    help: Teltonika router hardware revision - 1.3.6.1.4.1.48690.1.10.0
   - name: SimState
-    oid: 1.3.6.1.4.1.48690.2.1
+    oid: 1.3.6.1.4.1.48690.2.1.0
     type: DisplayString
-    help: RUT9xx SIM status - 1.3.6.1.4.1.48690.2.1
+    help: Teltonika SIM status - 1.3.6.1.4.1.48690.2.1.0
   - name: PinState
-    oid: 1.3.6.1.4.1.48690.2.2
+    oid: 1.3.6.1.4.1.48690.2.2.0
     type: DisplayString
-    help: RUT9xx PIN status - 1.3.6.1.4.1.48690.2.2
+    help: Teltonika PIN status - 1.3.6.1.4.1.48690.2.2.0
   - name: NetState
-    oid: 1.3.6.1.4.1.48690.2.3
+    oid: 1.3.6.1.4.1.48690.2.3.0
     type: DisplayString
-    help: RUT9xx mobile network registration status - 1.3.6.1.4.1.48690.2.3
+    help: Teltonika mobile network registration status - 1.3.6.1.4.1.48690.2.3.0
   - name: Signal
-    oid: 1.3.6.1.4.1.48690.2.4
+    oid: 1.3.6.1.4.1.48690.2.4.0
     type: DisplayString
-    help: RUT9xx signal level - 1.3.6.1.4.1.48690.2.4
+    help: Teltonika signal level - 1.3.6.1.4.1.48690.2.4.0
   - name: Operator
-    oid: 1.3.6.1.4.1.48690.2.5
+    oid: 1.3.6.1.4.1.48690.2.5.0
     type: DisplayString
-    help: RUT9xx operator currently in use - 1.3.6.1.4.1.48690.2.5
+    help: Teltonika operator currently in use - 1.3.6.1.4.1.48690.2.5.0
   - name: OperatorNumber
-    oid: 1.3.6.1.4.1.48690.2.6
+    oid: 1.3.6.1.4.1.48690.2.6.0
     type: DisplayString
-    help: RUT9xx operator number (MCC+MNC) - 1.3.6.1.4.1.48690.2.6
+    help: Teltonika operator number (MCC+MNC) - 1.3.6.1.4.1.48690.2.6.0
   - name: ConnectionState
-    oid: 1.3.6.1.4.1.48690.2.7
+    oid: 1.3.6.1.4.1.48690.2.7.0
     type: DisplayString
-    help: RUT9xx data session connection state - 1.3.6.1.4.1.48690.2.7
+    help: Teltonika data session connection state - 1.3.6.1.4.1.48690.2.7.0
   - name: ConnectionType
-    oid: 1.3.6.1.4.1.48690.2.8
+    oid: 1.3.6.1.4.1.48690.2.8.0
     type: DisplayString
-    help: RUT9xx data session connection type - 1.3.6.1.4.1.48690.2.8
+    help: Teltonika data session connection type - 1.3.6.1.4.1.48690.2.8.0
   - name: Temperature
-    oid: 1.3.6.1.4.1.48690.2.9
+    oid: 1.3.6.1.4.1.48690.2.9.0
     type: DisplayString
-    help: RUT9xx module temperature - 1.3.6.1.4.1.48690.2.9
+    help: Teltonika module temperature - 1.3.6.1.4.1.48690.2.9.0
   - name: ReceivedToday
-    oid: 1.3.6.1.4.1.48690.2.10
+    oid: 1.3.6.1.4.1.48690.2.10.0
     type: gauge
-    help: RUT9xx 3G connection received bytes today - 1.3.6.1.4.1.48690.2.10
+    help: Teltonika 3G connection received bytes today - 1.3.6.1.4.1.48690.2.10.0
   - name: SentToday
-    oid: 1.3.6.1.4.1.48690.2.11
+    oid: 1.3.6.1.4.1.48690.2.11.0
     type: gauge
-    help: RUT9xx 3G connection sent bytes today - 1.3.6.1.4.1.48690.2.11
+    help: Teltonika 3G connection sent bytes today - 1.3.6.1.4.1.48690.2.11.0
   - name: ReceivedYesterday
-    oid: 1.3.6.1.4.1.48690.2.12
+    oid: 1.3.6.1.4.1.48690.2.12.0
     type: gauge
-    help: RUT9xx 3G connection received bytes yesterday - 1.3.6.1.4.1.48690.2.12
+    help: Teltonika 3G connection received bytes yesterday - 1.3.6.1.4.1.48690.2.12.0
   - name: SentYesterday
-    oid: 1.3.6.1.4.1.48690.2.13
+    oid: 1.3.6.1.4.1.48690.2.13.0
     type: gauge
-    help: RUT9xx 3G connection sent bytes yesterday - 1.3.6.1.4.1.48690.2.13
+    help: Teltonika 3G connection sent bytes yesterday - 1.3.6.1.4.1.48690.2.13.0
   - name: FirmwareVersion
-    oid: 1.3.6.1.4.1.48690.2.14
+    oid: 1.3.6.1.4.1.48690.2.14.0
     type: DisplayString
-    help: RUT9xx firmware version - 1.3.6.1.4.1.48690.2.14
+    help: Teltonika firmware version - 1.3.6.1.4.1.48690.2.14.0
   - name: SimSlot
-    oid: 1.3.6.1.4.1.48690.2.15
+    oid: 1.3.6.1.4.1.48690.2.15.0
     type: DisplayString
-    help: RUT9xx sim slot in use - 1.3.6.1.4.1.48690.2.15
+    help: Teltonika sim slot in use - 1.3.6.1.4.1.48690.2.15.0
   - name: RouterUptime
-    oid: 1.3.6.1.4.1.48690.2.16
+    oid: 1.3.6.1.4.1.48690.2.16.0
     type: DisplayString
-    help: RUT9xx router uptime - 1.3.6.1.4.1.48690.2.16
+    help: Teltonika router uptime - 1.3.6.1.4.1.48690.2.16.0
   - name: ConnectionUptime
-    oid: 1.3.6.1.4.1.48690.2.17
+    oid: 1.3.6.1.4.1.48690.2.17.0
     type: DisplayString
-    help: RUT9xx mobile connection uptime - 1.3.6.1.4.1.48690.2.17
+    help: Teltonika mobile connection uptime - 1.3.6.1.4.1.48690.2.17.0
   - name: MobileIP
-    oid: 1.3.6.1.4.1.48690.2.18
+    oid: 1.3.6.1.4.1.48690.2.18.0
     type: DisplayString
-    help: RUT9xx mobile connection IP - 1.3.6.1.4.1.48690.2.18
+    help: Teltonika mobile connection IP - 1.3.6.1.4.1.48690.2.18.0
   - name: Sent
-    oid: 1.3.6.1.4.1.48690.2.19
+    oid: 1.3.6.1.4.1.48690.2.19.0
     type: gauge
-    help: RUT9xx bytes sent - 1.3.6.1.4.1.48690.2.19
+    help: Teltonika bytes sent - 1.3.6.1.4.1.48690.2.19.0
   - name: Received
-    oid: 1.3.6.1.4.1.48690.2.20
+    oid: 1.3.6.1.4.1.48690.2.20.0
     type: gauge
-    help: RUT9xx bytes received - 1.3.6.1.4.1.48690.2.20
+    help: Teltonika bytes received - 1.3.6.1.4.1.48690.2.20.0
   - name: CellID
-    oid: 1.3.6.1.4.1.48690.2.21
+    oid: 1.3.6.1.4.1.48690.2.21.0
     type: DisplayString
-    help: RUT9xx cellid parameter - 1.3.6.1.4.1.48690.2.21
+    help: Teltonika cellid parameter - 1.3.6.1.4.1.48690.2.21.0
   - name: SINR
-    oid: 1.3.6.1.4.1.48690.2.22
+    oid: 1.3.6.1.4.1.48690.2.22.0
     type: DisplayString
-    help: RUT9xx LTE sinr level - 1.3.6.1.4.1.48690.2.22
+    help: Teltonika LTE sinr level - 1.3.6.1.4.1.48690.2.22.0
   - name: RSRP
-    oid: 1.3.6.1.4.1.48690.2.23
+    oid: 1.3.6.1.4.1.48690.2.23.0
     type: DisplayString
-    help: RUT9xx LTE rsrp level - 1.3.6.1.4.1.48690.2.23
+    help: Teltonika LTE rsrp level - 1.3.6.1.4.1.48690.2.23.0
   - name: RSRQ
-    oid: 1.3.6.1.4.1.48690.2.24
+    oid: 1.3.6.1.4.1.48690.2.24.0
     type: DisplayString
-    help: RUT9xx LTE rsrq level - 1.3.6.1.4.1.48690.2.24
+    help: Teltonika LTE rsrq level - 1.3.6.1.4.1.48690.2.24.0
   - name: DigitalInput
-    oid: 1.3.6.1.4.1.48690.5.1
+    oid: 1.3.6.1.4.1.48690.5.1.0
     type: DisplayString
-    help: RUT9xx digital input - 1.3.6.1.4.1.48690.5.1
+    help: Teltonika digital input - 1.3.6.1.4.1.48690.5.1.0
   - name: DigitalIsolatedInput
-    oid: 1.3.6.1.4.1.48690.5.2
+    oid: 1.3.6.1.4.1.48690.5.2.0
     type: DisplayString
-    help: RUT9xx digital galvanically isolated input - 1.3.6.1.4.1.48690.5.2
+    help: Teltonika digital galvanically isolated input - 1.3.6.1.4.1.48690.5.2.0
   - name: AnalogInput
-    oid: 1.3.6.1.4.1.48690.5.3
+    oid: 1.3.6.1.4.1.48690.5.3.0
     type: DisplayString
-    help: RUT9xx analog input - 1.3.6.1.4.1.48690.5.3
+    help: Teltonika analog input - 1.3.6.1.4.1.48690.5.3.0
   - name: DigitalOCOutput
-    oid: 1.3.6.1.4.1.48690.5.4
+    oid: 1.3.6.1.4.1.48690.5.4.0
     type: DisplayString
-    help: RUT9xx digital OC output - 1.3.6.1.4.1.48690.5.4
+    help: Teltonika digital OC output - 1.3.6.1.4.1.48690.5.4.0
   - name: DigitalRelayOutput
-    oid: 1.3.6.1.4.1.48690.5.5
+    oid: 1.3.6.1.4.1.48690.5.5.0
     type: DisplayString
-    help: RUT9xx digital relay output - 1.3.6.1.4.1.48690.5.5
+    help: Teltonika digital relay output - 1.3.6.1.4.1.48690.5.5.0
   - name: AnalogInputCalc
-    oid: 1.3.6.1.4.1.48690.5.6
+    oid: 1.3.6.1.4.1.48690.5.6.0
     type: DisplayString
-    help: RUT9xx analog input (recalculated value) - 1.3.6.1.4.1.48690.5.6
+    help: Teltonika analog input (recalculated value) - 1.3.6.1.4.1.48690.5.6.0
   - name: Longtitude
-    oid: 1.3.6.1.4.1.48690.6.1
+    oid: 1.3.6.1.4.1.48690.6.1.0
     type: DisplayString
-    help: RUT9xx longititude coordinates - 1.3.6.1.4.1.48690.6.1
+    help: Teltonika longititude coordinates - 1.3.6.1.4.1.48690.6.1.0
   - name: Latitude
-    oid: 1.3.6.1.4.1.48690.6.2
+    oid: 1.3.6.1.4.1.48690.6.2.0
     type: DisplayString
-    help: RUT9xx latitutde coordinates - 1.3.6.1.4.1.48690.6.2
+    help: Teltonika latitutde coordinates - 1.3.6.1.4.1.48690.6.2.0
   - name: Accuracy
-    oid: 1.3.6.1.4.1.48690.6.3
+    oid: 1.3.6.1.4.1.48690.6.3.0
     type: DisplayString
-    help: RUT9xx accuracy - 1.3.6.1.4.1.48690.6.3
+    help: Teltonika accuracy - 1.3.6.1.4.1.48690.6.3.0
   - name: Datetime
-    oid: 1.3.6.1.4.1.48690.6.4
+    oid: 1.3.6.1.4.1.48690.6.4.0
     type: DisplayString
-    help: RUT9xx GPS datetime - 1.3.6.1.4.1.48690.6.4
+    help: Teltonika GPS datetime - 1.3.6.1.4.1.48690.6.4.0
   - name: NumSatellites
-    oid: 1.3.6.1.4.1.48690.6.5
+    oid: 1.3.6.1.4.1.48690.6.5.0
     type: DisplayString
-    help: RUT9xx number of satellites - 1.3.6.1.4.1.48690.6.5
+    help: Teltonika number of satellites - 1.3.6.1.4.1.48690.6.5.0
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 ubiquiti_airmax:
   walk:
   - 1.3.6.1.2.1.2
@@ -10081,6 +10129,10 @@ ubiquiti_airmax:
     type: DisplayString
     help: GPS Horizontal Dilution of Precision - 1.3.6.1.4.1.41112.1.4.9.9
   version: 1
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
 ubiquiti_unifi:
   walk:
   - 1.3.6.1.2.1.2
@@ -10781,3 +10833,7 @@ ubiquiti_unifi:
     oid: 1.3.6.1.4.1.41112.1.6.3.6
     type: DisplayString
     help: ' - 1.3.6.1.4.1.41112.1.6.3.6'
+  retries: %%snmpDefaultRetries%%
+  timeout: %%snmpDefaultTimeout%%
+  auth:
+    community: %%snmpCommunityString%%
