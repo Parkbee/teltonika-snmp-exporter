@@ -10,4 +10,4 @@ sed -i "s/%%snmpDefaultTimeout%%/${snmpDefaultTimeout}/g" /etc/snmp_exporter/snm
 
 chown -R prometheus:prometheus /etc/snmp_exporter
 
-exec su-exec prometheus /bin/snmp_exporter --config.file=/etc/snmp_exporter/snmp.yml
+exec su-exec prometheus /bin/snmp_exporter "${@}"

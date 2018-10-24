@@ -26,3 +26,6 @@ EXPOSE 9116
 
 # Set Docker entrypoint
 ENTRYPOINT ["tini", "-v", "--", "/docker-entrypoint.sh"]
+
+# Set commands
+CMD ["--config.file=/etc/snmp_exporter/snmp.yml"]
